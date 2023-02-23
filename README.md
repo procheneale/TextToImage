@@ -2,9 +2,9 @@
 
 TextToImage Generator is a simple image generator built using Stable Diffusion and Diffusers
 
-## Problem Statement
+## Goal
 
-I’m the webmaster of a retail site called XXX where 3rd-party merchants can sell their products. I’d really like more merchants to sign up to sell their products, but through my own research I’ve found that some of them are hesitant to sign up because they can’t visualize what their product will look like on our site. It’s a big investment for them to take a photo, upload it, and write up a description, so I’d really like to find a way to do this for them somehow. I’ve seen that there are projects like DALL-E, Stable Diffusion, and other generative ML models that can generate pictures so I think it might be possible. Can you help me?
+I want to create a web service that allows clients to generate an image based off of text. Clients would send an API call to the service, and the service would generate the image and upload it to their S3 storage. This solution leverages Stable Diffusion and Diffusers for the image generating model. Currently, this implementation is designed to run locally on an Apple M1 machine. Further advanced design changes may be made to allow the model to run on other platforms.
 
 ## Features
 
