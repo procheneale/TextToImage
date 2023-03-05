@@ -22,9 +22,10 @@ TextToImage uses the following open source projects to work properly:
 
 Recommended to use a virtual environment
 ```sh
-$ virtualenv env
+$ git clone https://github.com/procheneale/TextToImage.git
+$ cd TextToImage
 $ source env/bin/activate
-(<env_name>)$ pip install requirements.txt
+(<env_name>)$ pip install -r requirements.txt
 ```
 
 ## Configurations
@@ -43,6 +44,9 @@ Additionally, please ensure the AWS CLI has [programmatic access](https://docs.a
 python textToImage.py
 ```
 At some point, you will receive a prompt to input [Hugging Face Access token](https://huggingface.co/docs/hub/security-tokens). (Note: A Hugging Face account must be made and create a Hugging Face Access token)
+
+## Demo
+[![Text To Image Generator](https://www.youtube.com/watch?v=3S6sABBbmZE/0.jpg)](https://www.youtube.com/watch?v=3S6sABBbmZE "Text To Image Generator")
 
 ## System Design (For full implementation)
 ![Screenshot](SystemDesign.png)
